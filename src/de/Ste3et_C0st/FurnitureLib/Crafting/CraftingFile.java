@@ -193,6 +193,7 @@ public class CraftingFile {
 		loreText.add(HiddenStringUtils.encodeString(getSystemID()));
 
 		if(file.contains(header+".itemLore")){
+			String withPlaceholdersSet = PlaceholderAPI.setPlaceholders(bukkit.getPlayer(), withoutPlaceholdersSet);
 			if(file.isList(header+".itemLore")){
 				List<String> lore = file.getStringList(header+".itemLore");
 				if(im.getLore()!=null) {loreText = im.getLore();}
