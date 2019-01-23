@@ -29,6 +29,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 import de.Ste3et_C0st.FurnitureLib.Utilitis.HiddenStringUtils;
 import de.Ste3et_C0st.FurnitureLib.main.FurnitureLib;
 import de.Ste3et_C0st.FurnitureLib.main.Type.PlaceableSide;
+import me.clip.placeholderapi.PlaceholderAPI;
 
 public class CraftingFile {
 	private FileConfiguration file;
