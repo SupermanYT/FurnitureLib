@@ -89,6 +89,11 @@
 	    <id>dmulloy2-repo</id>
 	    <url>http://repo.dmulloy2.net/nexus/repository/public/</url>
   	</repository>
+	
+	<repository>
+            <id>placeholderapi</id>
+            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+        </repository>
   	
 	<repository>
 		<id>ProtectionLib</id>
@@ -128,6 +133,13 @@
         <version>1.7</version>
         <scope>provided</scope>
     </dependency>
+	
+	<dependency>
+         <groupId>me.clip</groupId>
+          <artifactId>placeholderapi</artifactId>
+          <version>2.9.2</version>
+         <scope>provided</scope>
+        </dependency>
     
 	<dependency>
 	   <groupId>com.comphenix.protocol</groupId>
